@@ -2,7 +2,7 @@ pipeline {
   agent any
     
 	environment {
-    registry = "rupahli/super-league"
+    registry = "rupahli/order-management"
     registryCredential = 'rupahlidocker'
     dockerImage = ''
   }
